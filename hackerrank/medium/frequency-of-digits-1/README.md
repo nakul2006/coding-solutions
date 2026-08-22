@@ -1,4 +1,4 @@
-# Pointers in C
+# Digit Frequency
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -25,25 +25,33 @@ Print ten space-separated integers in a single line denoting the frequency of ea
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T10:33:51.356Z  
+**Submitted:** 2026-08-22T10:40:54.381Z  
 
 ```c
 #include <stdio.h>
-
-void update(int *a,int *b) {
-    int sum = *a + *b;
-    int diff = abs(*a - *b);
-    *a = sum;
-    *b = diff;
-}
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
 int main() {
-    int a, b;
-    int *pa = &a, *pb = &b;
-    
-    scanf("%d %d", &a, &b);
-    update(pa, pb);
-    printf("%d\n%d", a, b);
+
+    char s[1000];
+    int freq[10] = {0};
+
+    scanf("%s", s);
+
+    for(int i = 0; s[i] != '\0'; i++)
+    {
+        if(s[i] >= '0' && s[i] <= '9')
+        {
+            freq[s[i] - '0']++;
+        }
+    }
+
+    for(int i = 0; i < 10; i++)
+    {
+        printf("%d ", freq[i]);
+    }
 
     return 0;
 }
