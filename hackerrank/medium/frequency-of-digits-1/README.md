@@ -25,7 +25,7 @@ Print ten space-separated integers in a single line denoting the frequency of ea
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T10:40:54.381Z  
+**Submitted:** 2026-08-22T10:45:19.252Z  
 
 ```c
 #include <stdio.h>
