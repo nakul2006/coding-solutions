@@ -36,8 +36,8 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.3 MB (beats 13.03%)  
-**Submitted:** 2026-10-20T21:23:33.367Z  
+**Memory:** 19.2 MB (beats 82.63%)  
+**Submitted:** 2026-10-20T21:31:02.355Z  
 
 ```py
 class Solution:
