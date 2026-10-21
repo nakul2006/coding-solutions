@@ -35,9 +35,9 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 ## Solution
 
 **Language:** C  
-**Runtime:** 0 ms  
-**Memory:** 8.4 MB  
-**Submitted:** 2026-10-20T21:31:29.438Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 8.5 MB (beats 90.64%)  
+**Submitted:** 2026-10-20T21:31:34.362Z  
 
 ```c
 int sum(int num1, int num2) {
